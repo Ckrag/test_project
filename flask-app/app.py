@@ -9,8 +9,6 @@ from flask import render_template
 from flask import request
 from flask_basicauth import BasicAuth
 
-from model.dms import DMS as DMS_APPLICATION
-
 app = Flask(__name__)
 
 @app.route('/hello', methods=['GET'])
